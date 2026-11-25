@@ -181,8 +181,8 @@ def hero():
   <rect class="live" x="48" y="49" width="8" height="8" rx="2" fill="{TECH}"/>
   <text x="66" y="57" font-family="{MONO}" font-size="12" letter-spacing="1" fill="{MUTED}">SOFTWARE DEVELOPER · CS STUDENT</text>
 </g>
-<text class="r" {d(0.15)} x="44" y="190" font-family="{SERIF}" font-size="116" letter-spacing="-2.5" fill="{INK}">Abu</text>
-<text class="r" {d(0.3)} x="44" y="290" font-family="{SERIF}" font-style="italic" font-size="116" letter-spacing="-2.5" fill="url(#shine)">Sufiyan</text>
+<text class="r" {d(0.15)} x="44" y="190" font-family="{SERIF}" font-size="116" letter-spacing="-2.5" fill="{INK}">Abhishek</text>
+<text class="r" {d(0.3)} x="44" y="290" font-family="{SERIF}" font-style="italic" font-size="116" letter-spacing="-2.5" fill="url(#shine)">R</text>
 <g class="r" {d(0.55)}>
   {text_lines(48, 338, ["I build full-stack web applications, interactive 3D experiences,", "and Linux tools that bring hardware to life."], 27, f'font-family="{SANS}" font-size="18" fill="{INK_SOFT}"')}
 </g>
@@ -195,7 +195,7 @@ def hero():
 </g>
 """
     write("hero.svg", svg(W, h, body, ["serif", "serif-i", "sans", "mono"],
-                          "Abu Sufiyan. Software Developer · CS Student. I build full-stack web applications, interactive 3D experiences, and Linux tools that bring hardware to life."))
+                          "Abhishek R. Software Developer · CS Student. I build full-stack web applications, interactive 3D experiences, and Linux tools that bring hardware to life."))
 
 
 # ---- 2 · world tiles ----------------------------------------------------------
